@@ -8,7 +8,7 @@ Task : Disassembly of workpiece with the help of 6 axis SCARA robot along with t
 ![Picture2](https://user-images.githubusercontent.com/38221793/58799223-08ac9f80-8605-11e9-9a99-5ef6b5c1aa45.png)
 
 The Kawasaki library was used to control the movements of the robot. 
-The robot and its function was designed to work parallel along with other parts of the factory hence works based on Global and local variables transmitted throughout the factory.
+The robot and its function was designed to work in tandem with other parts of the factory, hence it works based on Global and local variables transmitted throughout the factory.
 
 ![Picture3](https://user-images.githubusercontent.com/38221793/58799225-09453600-8605-11e9-8d39-6a58bfa49523.jpg)
 
