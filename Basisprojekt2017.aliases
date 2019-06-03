@@ -1,0 +1,9 @@
+[cRIO 9022]
+cRIO 9022 = "10.10.14.25"
+
+[Mein Computer]
+Mein Computer = "10.10.14.155"
+
+[My Computer]
+My Computer = "192.168.56.1"
+

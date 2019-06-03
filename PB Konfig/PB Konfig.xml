@@ -1,0 +1,466 @@
+<?xml version="1.0"?>
+<CS_PROFIBUS_CONFIGURATION>
+<GSDPathName Value="C:\ProgramData\Configurator2\GSD"/>
+<GUIVersion Value="1.2.40"/>
+<DLLVersion Value="1.2.38.0 - May 13 2011"/>
+<PROFIBUS BusNo="0">
+<Master>
+<mRecord_TS Value="1"/>
+<Name Value="cRIO PB"/>
+<Model_Name Value="cRIO PB"/>
+<master_class2 Value="0"/>
+<PB_Name Value="Buskonfiguration 1"/>
+<Repeater Value="0"/>
+<lPathId Value="0"/>
+<HotStandby Value="0"/>
+<HotStandbySwitchoverTime Value="-1"/>
+<SerialNumber Value="228"/>
+<SNRValid Value="0"/>
+<GSDFileName Value="COMS0B57_M.gsd">
+</GSDFileName><mRecord_Data_rate Value="6"/>
+<mRecord_Group_Sync Value="00000000"/>
+<mRecord_Group_Freeze Value="00000000"/>
+<IdentNumber Value="2903"/>
+<mRecord_TTR Value="21911"/>
+<mRecord_Delta_TTR Value="0"/>
+<mRecord_TID1 Value="37"/>
+<mRecord_TID2 Value="150"/>
+<mRecord_Watchdog Value="45000"/>
+<Comment Value="">
+</Comment><Profile Value="0"/>
+<mRecord_Tsl Value="300"/>
+<mRecord_MinTSDR Value="11"/>
+<mRecord_MaxTSDR Value="150"/>
+<mRecord_TQui Value="0"/>
+<mRecord_TSet Value="1"/>
+<mRecord_G Value="10"/>
+<mRecord_Max_retry_limit Value="1"/>
+<mRecord_HSA Value="11"/>
+<Dual_Port_Ram_Type Value="1"/>
+<Adressing_Size_Inp Value="4096"/>
+<Adressing_Size_Outp Value="4096"/>
+<Slave>
+<Name Value="IMS Interface"/>
+<Address Value="2"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="0..1"/>
+<OutputDPRAddress Value="0..1"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="3"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="2..3"/>
+<OutputDPRAddress Value="2..3"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="4"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="4..5"/>
+<OutputDPRAddress Value="4..5"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="5"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="6..7"/>
+<OutputDPRAddress Value="6..7"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="6"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="8..9"/>
+<OutputDPRAddress Value="8..9"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="7"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="10..11"/>
+<OutputDPRAddress Value="10..11"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="8"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="12..13"/>
+<OutputDPRAddress Value="12..13"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="9"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="14..15"/>
+<OutputDPRAddress Value="14..15"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="10"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="16..17"/>
+<OutputDPRAddress Value="16..17"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><Slave>
+<Name Value="IMS Interface"/>
+<Address Value="11"/>
+<Group_Ident Value="00000000"/>
+<WDogBit Value="1"/>
+<Comment Value=""/>
+<GSDFileName Value="LN0B5C.GSD"/>
+<Model_Name Value="IMS Interface"/>
+<Diag_Update_Delay Value="0"/>
+<Alarm_Sequence_Mode_Count Value="0"/>
+<Diagnostic_Alarm_supp Value="0"/>
+<Process_Alarm_supp Value="0"/>
+<Pull_Plug_Alarm_supp Value="0"/>
+<Status_Alarm_supp Value="0"/>
+<Update_Alarm_supp Value="0"/>
+<Manufacturer_Specific_Alarm_supp Value="0"/>
+<Extra_Alarm_SAP_SAP51 Value="0"/>
+<Check_Cfg_Mode_DPV1 Value="0"/>
+<DPV1_Activated Value="0"/>
+<Active Value="1"/>
+<GlobalModule><Name Value=""/>
+<CfgData Value=""/>
+<m_ExtUserPrmData Value="0x00 0x00 0x00 0x00 0x00"/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="0x00 0x00 0x00 0x00 0x00">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="-"/>
+<OutputDPRAddress Value="-"/>
+
+</GlobalModule><Module>
+<Name Value="2 Byte Out, 2 Byte In"/>
+<CfgData Value="0x21 0x11"/>
+<m_ExtUserPrmData Value=""/>
+<m_ExtUserPrmDataConst Value=""/>
+<m_FinalUserPrmData Value="">
+</m_FinalUserPrmData>
+<InputDPRAddress Value="18..19"/>
+<OutputDPRAddress Value="18..19"/>
+
+</Module><NrOutputBytes Value="2">
+</NrOutputBytes><NrInputBytes Value="2">
+</NrInputBytes>
+</Slave><WordAddr_Mode Value="0">
+</WordAddr_Mode><Motorola__Format Value="0">
+</Motorola__Format><UINT32ChkSum Value="-1700543121"/>
+
+</Master></PROFIBUS></CS_PROFIBUS_CONFIGURATION>
